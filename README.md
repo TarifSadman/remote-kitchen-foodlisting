@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Answer to the question number : 1
 
-## Getting Started
+### For a hotfix, it's common to utilize a naming convention that clearly shows the purpose of the branch. A useful format may be:
 
-First, run the development server:
+- hotfix/-brief-description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+For example: hotfix/-signup-validation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### After finalizing my work on the designated branch for the hotfix, I follow these detailed steps to create a PR and merge it with the production branch:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Push My Branch to the Remote Repository.
+- Create a Pull Request.
+- Review and Merge the PR.
+- Switch to the local production branch to update.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Following these steps ensures that my hotfix is properly reviewed, tested, and merged into the production branch while maintaining a clean and organized repository. This process helps me prevent conflicts, ensure code quality, and facilitate collaboration within the team.
 
-## Learn More
+# Answer to the question number : 2
 
-To learn more about Next.js, take a look at the following resources:
+### To find particular items that belong to each category in an array of menu collections, we can go through these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To begin with, iterate through each menu collection. For each collection, make a map that links menu item IDs to their respective objects. At that point, loop through each category within the collection, and utilize the map to retrieve the menu items based on the IDs recorded in the category's menuItemsIds. At last, store or display the results by matching the category names with their corresponding menu items. 
